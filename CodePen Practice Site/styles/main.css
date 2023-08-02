@@ -1,0 +1,79 @@
+body {
+    background: lightgray;
+  }
+  
+  .aboutCard {
+    display: block;
+    width: 80%;
+    height: 300px;
+    border: solid black 5px;
+    margin-left: 60px;
+    background-color: linen;
+    
+  }
+  
+  .card-img-top{
+    border: solid black 2px;
+    height: 300px;
+    width: 275px;
+  }
+  
+  #linkedInPic.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+   
+    
+  }
+  
+  
+  .card {
+    width: 325px;
+    height: 700px;
+    padding: 20px;
+    background-color: linen;
+    border: solid black 5px;
+    margin-left: 60px;
+    margin-right: -60px;
+  
+      
+  }
+  
+  .card:hover {
+          box-shadow: 0 10px 50px 0 rgba(0,0,0,0.3);
+      }
+  
+  #myLinkedIn{
+    float: right;
+    margin-top: 5px;
+  }
+  
+  .myBody{
+    margin: 40px;
+  }
+  
+  .profile{
+    display: block;
+    width: 400px;
+    float: center;
+    margin: 40px;
+    
+  }
+  
+  form{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    background-color: white;}
+    
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;}
+  
